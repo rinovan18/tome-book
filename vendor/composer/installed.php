@@ -3,7 +3,7 @@
         'name' => 'drupal-tome/tome-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'ac52241db6400c2d4da3380cd24e1e1c501f4a62',
+        'reference' => '1d52612928cec2383ae76dd6e0e79ca1ccc53552',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -184,7 +184,7 @@
         'drupal-tome/tome-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'ac52241db6400c2d4da3380cd24e1e1c501f4a62',
+            'reference' => '1d52612928cec2383ae76dd6e0e79ca1ccc53552',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="http://127.0.0.1/">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="http://default/">
   <channel>
     <title>Bookish Blog</title>
-    <link>http://127.0.0.1/</link>
+    <link>http://default/</link>
     <description>My personal blog</description>
     <language>en</language>
     
     <item>
   <title>Learning to ride moose</title>
-  <link>http://127.0.0.1/blog/learning-ride-moose</link>
+  <link>http://default/blog/learning-ride-moose</link>
   <description>Bitters brunch selvage celiac migas cred salvia flannel ethical gluten-free pop-up. Succulents photo booth authentic, skateboard tousled vinyl hell of single-origin coffee aesthetic chia farm-to-table gentrify pop-up affogato tattooed. Readymade lo-fi 90's asymmetrical hoodie, yr intelligentsia synth unicorn single-origin coffee edison bulb put a bird on it next level. Neutra godard master cleanse whatever tilde, copper mug before they sold out photo booth shoreditch pinterest next level snackwave sartorial.</description>
   <pubDate><time datetime="2024-05-21T07:39:43+00:00">Tue, 21 May 24 07:39:43 +0000</time>
 </pubDate>
@@ -17,7 +17,7 @@
     </item>
 <item>
   <title>If monkeys can take baths, so can you</title>
-  <link>http://127.0.0.1/blog/if-monkeys-can-take-baths-so-can-you</link>
+  <link>http://default/blog/if-monkeys-can-take-baths-so-can-you</link>
   <description>Bitters brunch selvage celiac migas cred salvia flannel ethical gluten-free pop-up. Succulents photo booth authentic, skateboard tousled vinyl hell of single-origin coffee aesthetic chia farm-to-table gentrify pop-up affogato tattooed. Readymade lo-fi 90's asymmetrical hoodie, yr intelligentsia synth unicorn single-origin coffee edison bulb put a bird on it next level. Neutra godard master cleanse whatever tilde, copper mug before they sold out photo booth shoreditch pinterest next level snackwave sartorial.</description>
   <pubDate><time datetime="2024-05-21T07:39:42+00:00">Tue, 21 May 24 07:39:42 +0000</time>
 </pubDate>
@@ -26,7 +26,7 @@
     </item>
 <item>
   <title>A day at the Japanese Garden</title>
-  <link>http://127.0.0.1/blog/day-japanese-garden</link>
+  <link>http://default/blog/day-japanese-garden</link>
   <description>Bitters brunch selvage celiac migas cred salvia flannel ethical gluten-free pop-up. Succulents photo booth authentic, skateboard tousled vinyl hell of single-origin coffee aesthetic chia farm-to-table gentrify pop-up affogato tattooed. Readymade lo-fi 90's asymmetrical hoodie, yr intelligentsia synth unicorn single-origin coffee edison bulb put a bird on it next level. Neutra godard master cleanse whatever tilde, copper mug before they sold out photo booth shoreditch pinterest next level snackwave sartorial.</description>
   <pubDate><time datetime="2024-05-21T07:39:41+00:00">Tue, 21 May 24 07:39:41 +0000</time>
 </pubDate>
@@ -35,7 +35,7 @@
     </item>
 <item>
   <title>Images just can't describe it</title>
-  <link>http://127.0.0.1/blog/images-just-cant-describe-it</link>
+  <link>http://default/blog/images-just-cant-describe-it</link>
   <description>Bitters brunch selvage celiac migas cred salvia flannel ethical gluten-free pop-up. Succulents photo booth authentic, skateboard tousled vinyl hell of single-origin coffee aesthetic chia farm-to-table gentrify pop-up affogato tattooed. Readymade lo-fi 90's asymmetrical hoodie, yr intelligentsia synth unicorn single-origin coffee edison bulb put a bird on it next level. Neutra godard master cleanse whatever tilde, copper mug before they sold out photo booth shoreditch pinterest next level snackwave sartorial.</description>
   <pubDate><time datetime="2024-05-21T07:39:40+00:00">Tue, 21 May 24 07:39:40 +0000</time>
 </pubDate>
