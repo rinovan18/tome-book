@@ -1,0 +1,96 @@
+{
+    "uuid": [
+        {
+            "value": "73fe921a-e2a9-4dc8-9c60-5c14f110a2c6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "blog",
+            "target_type": "node_type",
+            "target_uuid": "6c0a0624-787e-49c7-ad82-827b0cc6c134"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-05-21T13:05:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "65fd18c0-d01d-4ccf-bcf3-2f5170c69af0"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "65fd18c0-d01d-4ccf-bcf3-2f5170c69af0"
+        }
+    ],
+    "title": [
+        {
+            "value": "Images just can't describe it"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-05-21T13:05:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-05-21T13:05:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/blog\/images-just-cant-describe-it",
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Bitters brunch selvage celiac migas cred salvia flannel ethical gluten-free pop-up. Succulents photo booth authentic, skateboard tousled vinyl hell of single-origin coffee aesthetic chia farm-to-table gentrify pop-up affogato tattooed. Readymade lo-fi 90's asymmetrical hoodie, yr intelligentsia synth unicorn single-origin coffee edison bulb put a bird on it next level. Neutra godard master cleanse whatever tilde, copper mug before they sold out photo booth shoreditch pinterest next level snackwave sartorial. Cloud bread fanny pack street art fam, 90's flexitarian ugh snackwave biodiesel slow-carb ramps squid venmo.<\/p>\n<pre><code class=\"language-php\">&lt;?php\necho \"You can embed code snippets\";\nif (TRUE) {\n  echo \"They're automatically highlighted!\";\n}<\/code><\/pre>\n<h2>Headings automatically have anchor links<\/h2>\n<p>Brunch fashion axe helvetica affogato blue bottle, fixie shoreditch venmo. Post-ironic hexagon truffaut vegan crucifix, waistcoat ugh chillwave flannel. Deep v pop-up iPhone chia, live-edge blog pork belly etsy PBR&B. Vape disrupt air plant XOXO wayfarers coloring book banh mi knausgaard. Roof party fanny pack forage raw denim poutine humblebrag. Semiotics swag tumblr, vaporware truffaut bushwick tote bag poutine fam enamel pin salvia affogato.<\/p>",
+            "format": "rich_text",
+            "summary": null
+        }
+    ],
+    "field_image": [],
+    "field_tags": []
+}

@@ -1,0 +1,77 @@
+{
+    "uuid": [
+        {
+            "value": "5229e176-7979-463a-891a-046de3340861"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tags",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "3a812177-3e2c-4144-abdf-47049ab5116a"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-05-21T13:05:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "forest"
+        }
+    ],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [
+        {
+            "target_id": null
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-05-21T13:05:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "uuid": [
+        {
+            "value": "63627a12-8c5c-427a-8766-0f9916980032"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "726a131c-bb62-4f6b-b5ad-0a6fc59c00d6"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-05-21T13:05:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "65fd18c0-d01d-4ccf-bcf3-2f5170c69af0"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": false
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "65fd18c0-d01d-4ccf-bcf3-2f5170c69af0"
+        }
+    ],
+    "title": [
+        {
+            "value": "social_node"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-05-21T13:05:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-05-21T13:05:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/socialnode",
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>An example Bookish site, built using Tome and Drupal!<\/p>",
+            "format": "rich_text",
+            "summary": null
+        }
+    ],
+    "field_image": [
+        {
+            "alt": "The Oregon coast.",
+            "title": null,
+            "width": 1920,
+            "height": 1280,
+            "target_type": "file",
+            "target_uuid": "69576089-b034-4c51-9242-aa1c06be7208"
+        }
+    ]
+}

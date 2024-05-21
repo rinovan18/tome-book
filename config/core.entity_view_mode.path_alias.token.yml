@@ -1,4 +1,4 @@
-uuid: 559a384f-35ab-4c5c-894f-ae15bb2a1708
+uuid: 060549b4-7ab6-4bc9-a7b0-12326b0edd6e
 langcode: en
 status: true
 dependencies:
@@ -6,5 +6,6 @@ dependencies:
     - path_alias
 id: path_alias.token
 label: Token
+description: ''
 targetEntityType: path_alias
 cache: true

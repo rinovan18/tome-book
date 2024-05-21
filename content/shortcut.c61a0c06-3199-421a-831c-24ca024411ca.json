@@ -1,0 +1,41 @@
+{
+    "uuid": [
+        {
+            "value": "c61a0c06-3199-421a-831c-24ca024411ca"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "shortcut_set": [
+        {
+            "target_id": "default",
+            "target_type": "shortcut_set",
+            "target_uuid": "ab1c99b5-359e-4d8d-8ce0-77e9eed11131"
+        }
+    ],
+    "title": [
+        {
+            "value": "Content"
+        }
+    ],
+    "weight": [
+        {
+            "value": 2
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/admin\/content",
+            "title": null,
+            "options": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ]
+}
