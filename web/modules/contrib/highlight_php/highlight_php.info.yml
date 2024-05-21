@@ -1,0 +1,12 @@
+name: highlight.php
+description: 'highlight.php filter integration.'
+type: module
+core_version_requirement: ^9 || ^10
+configure: highlight_php.settings
+dependencies:
+  - drupal:filter
+
+# Information added by Drupal.org packaging script on 2023-09-06
+version: '1.0.1'
+project: 'highlight_php'
+datestamp: 1693979007

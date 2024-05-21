@@ -1,0 +1,7 @@
+highlight_php.settings:
+  path: '/admin/config/content/highlight-php'
+  defaults:
+    _form: '\Drupal\highlight_php\Form\HighlightPhpForm'
+    _title: 'Highlight PHP Configuration'
+  requirements:
+    _permission: 'administer site configuration'

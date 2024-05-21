@@ -1,0 +1,6 @@
+highlight_php.settings:
+  title: 'Highlight PHP configuration'
+  parent: system.admin_config_content
+  description: 'Alter the behavior of how code is highlighted.'
+  route_name: highlight_php.settings
+  weight: 99

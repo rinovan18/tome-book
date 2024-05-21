@@ -1,0 +1,6 @@
+services:
+  highlight_php.twig_extension:
+    class: Drupal\highlight_php\TwigExtension
+    arguments: ['@renderer']
+    tags:
+      - { name: twig.extension, priority: 1 }

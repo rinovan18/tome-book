@@ -1,0 +1,79 @@
+<?php
+
+/**
+ * @file
+ * Shared functions and hooks for the highlight_php module.
+ */
+
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Routing\RouteMatchInterface;
+use Highlight\Highlighter;
+
+/**
+ * Implements hook_help().
+ */
+function highlight_php_help($route_name, RouteMatchInterface $route_match) {
+  if ($route_name === 'help.page.highlight_php') {
+    $text = file_get_contents(__DIR__ . '/README.md');
+    return '<pre>' . Html::escape($text) . '</pre>';
+  }
+  return '';
+}
+
+/**
+ * Highlights code automatically in a given HTML string.
+ *
+ * @param string $html
+ *   A HTML string.
+ *
+ * @return string|bool
+ *   The modified string, or FALSE if no highlights were made.
+ */
+function highlight_php_highlight($html) {
+  $config = \Drupal::config('highlight_php.settings');
+  $mode = $config->get('mode') ?? 'auto';
+  $regex = $config->get('manual_regex') ?? 'language-([a-zA-Z1-9]*)';
+  $regex = '|' . str_replace('|', '', $regex) . '|';
+
+  $hl = new Highlighter();
+  if ($mode === 'auto') {
+    $hl->setAutodetectLanguages(explode(' ', trim($config->get('auto_languages'))));
+  }
+
+  $document = Html::load($html);
+  $xpath = new \DOMXPath($document);
+  $modified = FALSE;
+
+  /** @var \DOMElement $node */
+  foreach ($xpath->query('//code') as $node) {
+    try {
+      $result = FALSE;
+      if ($mode === 'auto') {
+        $result = $hl->highlightAuto($node->textContent);
+      }
+      elseif ($mode === 'manual' && $regex) {
+        preg_match($regex, $document->saveHTML($node), $matches);
+        if (isset($matches[1])) {
+          $result = $hl->highlight($matches[1], $node->textContent);
+        }
+      }
+      if (!$result) {
+        continue;
+      }
+      $fragment = $document->createDocumentFragment();
+      $fragment->appendXML($result->value);
+      $node->textContent = '';
+      $node->appendChild($fragment);
+      $classlist = explode(' ', $node->getAttribute('class'));
+      $classlist[] = 'hljs';
+      $classlist[] = $result->language;
+      $node->setAttribute('class', implode(' ', $classlist));
+      $modified = TRUE;
+    }
+    catch (\Exception $e) {
+
+    }
+  }
+
+  return $modified ? Html::serialize($document) : FALSE;
+}

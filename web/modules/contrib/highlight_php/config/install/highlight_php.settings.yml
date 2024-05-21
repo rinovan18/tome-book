@@ -1,0 +1,3 @@
+mode: 'auto'
+auto_languages: 'html php javascript css twig yaml go protobuf sql'
+manual_regex: 'language-([a-zA-Z1-9]*)'
