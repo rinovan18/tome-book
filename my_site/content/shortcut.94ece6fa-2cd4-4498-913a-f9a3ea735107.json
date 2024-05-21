@@ -1,0 +1,41 @@
+{
+    "uuid": [
+        {
+            "value": "94ece6fa-2cd4-4498-913a-f9a3ea735107"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "shortcut_set": [
+        {
+            "target_id": "default",
+            "target_type": "shortcut_set",
+            "target_uuid": "64c85399-c608-4db4-a32f-be9518ba2cd7"
+        }
+    ],
+    "title": [
+        {
+            "value": "Create Page"
+        }
+    ],
+    "weight": [
+        {
+            "value": 4
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/node\/add\/page",
+            "title": null,
+            "options": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+uuid: 89539601-f8cd-4cde-9056-001bd5323653
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bookish_callout
+    - field.storage.block_content.body
+  module:
+    - allowed_formats
+    - text
+_core:
+  default_config_hash: '-_bRxUOCbnjOoH1x9oWOO1UWTQbhQpptfvkJddMvox4'
+id: block_content.bookish_callout.body
+field_name: body
+entity_type: block_content
+bundle: bookish_callout
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats:
+    - callout_text
+field_type: text_with_summary
